@@ -30,7 +30,7 @@ Ping me on linkedIn for any queries.
 
 1. Express
 2. Mongoose
-3. JWT auth (Recommened) 
+3. JWT auth (Recommended) 
 4. MongoDb
 
 ## How to submit?
@@ -41,7 +41,13 @@ Ping me on linkedIn for any queries.
 5. Add "How to run instruction" in the area below
 
 ## How to run?
-To be added by the candidate
+1) npm install
+2) create ".env" file and add:
+```
+DATABASE_URL=<Your Database URL>
+JWT_SECRET e.g: JWT_SECRET=secretkey
+```
+3) npm start
 
 ## Deadline
 Please complete it within 3 days of assignment. 
